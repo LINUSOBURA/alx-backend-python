@@ -12,4 +12,4 @@ def floor(n: float) -> int:
     Returns:
         int: The largest integer less than or equal to the given number.
     """
-    return floor(n)
+    return int(n)
