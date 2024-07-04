@@ -15,6 +15,7 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
         v (Union[int, float]): The value.
 
     Returns:
-        Tuple[str, float]: A tuple containing the key as a string and the value as a float.
+        Tuple[str, float]: A tuple containing the key as a string
+        and the value as a float.
     """
     return (k, float(v))
