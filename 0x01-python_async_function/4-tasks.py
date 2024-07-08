@@ -22,7 +22,7 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
         delays waited for.
     """
 
-    delays = []
+    delays: List[float] = []
     tasks = []
     for _ in range(n):
         tasks.append(task_wait_random(max_delay))
